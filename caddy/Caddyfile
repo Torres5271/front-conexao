@@ -1,4 +1,7 @@
-planejamente.tech {
+calencare-prod.zapto.org {
     root * /usr/share/caddy
     file_server
+    handle /api/*{
+        reverse_proxy 10.0.0.199
+    }
 }
