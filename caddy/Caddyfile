@@ -34,5 +34,7 @@ calencare-prod.zapto.org {
     }
 
     # Opcional: Habilita HTTPS com Let's Encrypt
-    tls {}
+    tls {
+        on_demand
+    }
 }
