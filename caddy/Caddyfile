@@ -1,6 +1,5 @@
 calencare-prod.zapto.org {
-    root * /usr/share/caddy
-    file_server
+    reverse_proxy calencare-web:80
     handle /api/*{
         reverse_proxy 10.0.0.199
     }
