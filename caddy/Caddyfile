@@ -10,7 +10,7 @@ calencare-prod.zapto.org {
     # Serve o aplicativo React
     root * /build
     encode gzip
-    try_files {path} /index.html
+    try_files public /index.html
 
     # Configura o load balancer para a API
     reverse_proxy /api/* {
