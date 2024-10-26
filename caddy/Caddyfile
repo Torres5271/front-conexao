@@ -1,7 +1,10 @@
 calencare-prod.zapto.org {
-    reverse_proxy calencare-web:80
 
     handle /api/* {
         reverse_proxy 10.0.0.199
     }
+
+    # Servir arquivos estáticos do diretório /usr/share/caddy
+    root * /usr/share/caddy
+    file_server
 }
