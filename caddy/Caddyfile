@@ -1,7 +1,40 @@
+#calencare-prod.zapto.org {
+#    root * /usr/share/caddy
+#    file_server
+#    handle /api/* {
+#        reverse_proxy 10.0.0.199
+#    }
+#}
+
 calencare-prod.zapto.org {
-    root * /usr/share/caddy
-    file_server
-    handle /api/* {
-        reverse_proxy 10.0.0.199
+    # Serve o aplicativo React
+    root * /build
+    encode gzip
+    try_files {path} /index.html
+
+    # Configura o load balancer para a API
+    reverse_proxy /api/* {
+        # Adicione várias instâncias de back-end aqui
+        to 10.0.0.199
+
+        # Configura opções de proxy
+        header_up Host {host}
+        header_up X-Real-IP {remote}
+        header_up X-Forwarded-For {remote}
+        header_up X-Forwarded-Proto {scheme}
+
+        # Configura um método de balanceamento
+        lb_policy round_robin  # Pode ser "random", "least_conn", etc.
+    }
+
+    # Opcional: Habilita logs
+    log {
+        output file /var/log/caddy/access.log
+        format json
+    }
+
+    # Opcional: Habilita HTTPS com Let's Encrypt
+    tls {
+        on_demand
     }
 }
