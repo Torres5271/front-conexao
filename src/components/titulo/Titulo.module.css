@@ -1,0 +1,44 @@
+h1 {
+  font-family: "Poppins";
+  font-weight: 800;
+  letter-spacing: -0.08rem;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--texto-preto);
+}
+
+.lg {
+  font-size: 30px;
+}
+
+.md {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+}
+
+.md-leve {
+  font-size: 23px;
+  font-weight: 300;
+  letter-spacing: -0.05rem;
+}
+
+.sm {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+.sm-leve {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+}
+
+#branco {
+  color: var(--texto-branco);
+}
+
+#roxo {
+  color: var(--roxo-principal);
+}

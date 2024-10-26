@@ -1,0 +1,171 @@
+.section-perfil {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 20vw;
+}
+
+.section-perfil .container-perfil {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.section-perfil .container-perfil .content-perfil {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  justify-content: flex-start;
+}
+
+.section-perfil .container-perfil .content-perfil .header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section-perfil .container-perfil .content-perfil .header .group-button,
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .group-button {
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .photo-perfil {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .photo-perfil
+  .img-perfil {
+  height: 184px;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .group-button
+  button {
+  padding: 0 24px;
+  height: 44px;
+  font-weight: 600;
+  letter-spacing: -0.03rem;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .group-button
+  .roxo {
+  background-color: var(--roxo-principal);
+  color: var(--texto-branco);
+  border: none;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .group-button
+  .sem-fundo {
+  background-color: transparent;
+  border: none;
+  color: var(--texto-cinza);
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .info-empresa {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .info-empresa
+  .dias-funcionamento {
+  width: 95%;
+  padding: 16px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+  margin: 0 auto;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .info-empresa
+  .dias-funcionamento
+  .card-horarios {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--branco);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 1.5rem;
+  padding: 32px;
+  opacity: 1;
+}
+
+.section-perfil
+  .container-perfil
+  .content-perfil
+  .informations-perfil
+  .info-empresa
+  .dias-funcionamento
+  .card-horarios
+  .card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.group-inputs {
+    display: flex;
+    width: 100%;
+    column-gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.uf{
+  width: 25%;
+}

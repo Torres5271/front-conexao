@@ -1,0 +1,35 @@
+.textarea{
+    padding: 16px 24px;
+    height: 96px;
+    border-radius: 1.2rem;
+    resize: none;
+    font-size: 14.5px;
+    border: 1.5px solid var(--texto-cinza);
+    letter-spacing: -0.03rem;
+    color: var(--texto-preto);
+    font-weight: 500;
+}
+
+
+.textarea:focus {
+  outline: none;
+  border-width: 2px;
+  box-shadow: 0px 7px 4px var(--texto-cinza-opacidade-15);
+}
+
+.componet-input{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 100%;
+}
+
+.titulo-input{
+    font-family: "Poppins";
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+

@@ -1,0 +1,62 @@
+.section-agenda {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 20vw;
+  }
+  
+  .section-agenda .container-agenda {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .section-agenda .container-agenda .content-agenda {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: flex-start;
+  }
+  
+  .section-agenda .container-agenda .content-agenda .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .section-agenda .container-agenda .content-agenda .header .group-button{
+    display: flex;
+    column-gap: 8px;
+    justify-content: center;
+  }
+
+  .section-agenda .container-agenda .content-agenda .table-agenda{
+    width: 70vw;
+    height: 80vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+
+  .section-agenda .container-agenda .div-card {
+    position: absolute;
+    /* top: 50%; */
+  }
+
+  .sem-agendamentos {
+    /* display: flex; */
+    /* flex: column; */
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagem {
+    width: 60vw;
+    height: 60vh;
+    /* object-fit: cover; */
+    border-radius: 1rem;
+  }

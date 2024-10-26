@@ -1,0 +1,63 @@
+.servicos-container {
+  margin-bottom: 20px; 
+}
+
+.servicos-input {
+  border: 1.5px solid var(--texto-cinza);
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 10px;
+  background: white
+}
+
+.servicos-grid {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
+  /* align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.servico-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--texto-cinza);
+  transition: 0.2s all linear;
+}
+
+.servico-item span {
+  margin-left: 5px;
+  letter-spacing: -0.03rem;
+  font-weight: 600;
+}
+
+.titulo-input {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -0.03rem;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.servico-item.selected {
+  color: var(--texto-preto); /* Cor do ícone quando selecionado */
+}
+
+.selected-text {
+  color: var(--texto-preto); /* Cor do texto quando selecionado */
+}
+
+.sem-servicos {
+  width: 100%;
+  letter-spacing: -0.03rem;
+}
+
+.link-servico {
+  cursor: pointer;
+  font-weight: 700;
+}

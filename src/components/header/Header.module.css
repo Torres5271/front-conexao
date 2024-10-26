@@ -1,0 +1,96 @@
+.header {
+  position: fixed;
+  background-color: var(--branco);
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header .logo-header {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.header .logo-header .icon-menu {
+  font-size: 1.3rem;
+  color: var(--roxo-principal);
+  cursor: pointer;
+}
+
+.header .nav-list {
+  list-style: none;
+  display: grid;
+  row-gap: 2rem;
+}
+
+.header .nav-list li {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s all linear;
+}
+
+.header .nav-list li .text-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+.cinza {
+  color: var(--texto-cinza);
+}
+
+.cinza:hover {
+  color: var(--roxo-principal);
+}
+
+#roxo,
+.roxo {
+  color: var(--roxo-principal);
+}
+
+.header .user-profile {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .user-profile:hover .name-user,
+.header .user-profile:hover .icon-arrow {
+  color: var(--roxo-principal);
+}
+
+.header .user-profile .icon-profile {
+  height: 2.3rem;
+}
+
+.header .user-profile .icon-profile .img-profile {
+  height: 100%;
+}
+
+.header .user-profile .name-user {
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+  transition: 0.3s all linear;
+  max-width: 8vw;
+}
+
+.header .user-profile .icon-arrow {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all linear;
+}

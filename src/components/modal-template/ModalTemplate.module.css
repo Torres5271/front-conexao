@@ -1,0 +1,115 @@
+#lg{
+  width: 35vw;
+  min-height: 10vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .modal {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2rem;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21vw;
+  }
+
+  .modal .container-modal {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+    padding: 24px 0;
+    margin: 0 auto;
+  }
+
+  .modal .container-modal .header-modal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal .container-modal .header-modal .icon {
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s all linear;
+  }
+
+  .modal .container-modal .header-modal .icon:hover {
+    color: var(--roxo-principal);
+  }
+
+  .modal .container-modal .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .modal .group-button {
+    width: 100%;
+    display: flex;
+    column-gap: 8px;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .modal {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2rem;
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    z-index: 99999999999;
+  }
+
+  .modal .container-modal {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 24px;
+    padding: 24px 0;
+    margin: 0 auto;
+  }
+
+  .modal .container-modal .header-modal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal .container-modal .header-modal .icon {
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.3s all linear;
+  }
+
+  .modal .container-modal .header-modal .icon:hover {
+    color: var(--roxo-principal);
+  }
+
+  .modal .container-modal .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .modal .group-button {
+    width: 100%;
+    display: flex;
+    column-gap: 8px;
+    justify-content: flex-end;
+  }
+}
+
+.modal{
+  height: auto;
+}

@@ -1,0 +1,45 @@
+.card-carousel{
+    width: 100%;
+    height: fit-content;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.card-carousel .image-carousel{
+    width: 55%;
+    padding-left: 1rem;
+    z-index: 999;
+}
+
+.card-carousel .image-carousel img{
+    width: 100%;
+    border-radius: 1rem;
+    filter: drop-shadow(-16px 16px 0px #D8D8D8);
+    z-index: 1;
+}
+
+.card-carousel .text-carousel{
+    width: 40%;
+    display: grid;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-carousel .text-carousel .image-fundo{
+    height: 440px;
+    position: absolute;
+    right: 90%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.card-carousel .text-carousel .text{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.05rem;
+    color: var(--roxo-principal);
+}

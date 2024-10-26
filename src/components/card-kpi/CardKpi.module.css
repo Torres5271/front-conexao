@@ -1,0 +1,59 @@
+.card-kpi {
+  background-color: var(--branco);
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 1rem 1rem;
+  align-items: center;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.card-kpi .icon-kpi {
+  min-width: 4rem;
+  min-height: 4rem;
+  background-color: var(--roxo-opacidade-15);
+  border: none;
+  border-radius: 6rem;
+  font-size: 4rem;
+  color: var(--roxo-principal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-kpi .text-kpi {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.55rem;
+}
+
+.card-kpi .text-kpi .label-kpi {
+  min-width: 100%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--texto-cinza);
+  letter-spacing: -0.03rem;
+  row-gap: 1rem;
+}
+
+.card-kpi .text-kpi .label-kpi .sub-label-kpi {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--texto-preto);
+  letter-spacing: -0.03rem;
+}
+
+.card-kpi .text-kpi .value-kpi {
+  font-size: 1.3rem;
+  color: var(--texto-preto);
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 13vw;
+  /* border: 1px solid; */
+  min-height: 1.6rem;
+}

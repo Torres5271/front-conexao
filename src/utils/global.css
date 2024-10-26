@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --roxo-principal: #9f35f0;
+  --roxo-opacidade-15: rgba(159, 53, 240, 0.15);
+  --roxo-secundario: #8758ea;
+  --roxo-secundario-opacidade-15: rgba(135, 88, 234, 0.25);
+  --azul-principal: #35f0e9;
+  --azul-secundario: #51bde9;
+  --azul-terciario: #5ea4ea;
+  --texto-preto: #1c1c1c;
+  --texto-cinza: #5b5b5b;
+  --texto-cinza-opacidade-15: rgba(91, 91, 91, 0.15);
+  --texto-branco: #f5f5f5;
+  --branco: #fefefe;
+  --branco-secundario: #f8f7f9;
+  --branco-opacidade: rgb(254, 254, 254, 0.75);
+  --preto: #010101;
+  --cinza: #202020;
+  --lilas-fundo: #f1ecf5;
+  /* --lilas-fundo: rgba(239, 232, 245, 0.75); */
+  --cinza-claro: #c1c1c1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-overflow: ellipsis;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--roxo-principal);
+  border-radius: 1rem;
+}
+
+body {
+  background: var(--branco-secundario);
+  overflow-x: hidden;
+  /* background-image: url(./assets/bolinhas_fundo.svg); */
+  /* background-size: cover; */
+}
+
+.title-roxo {
+  color: var(--roxo-principal);
+}
+
+button {
+  border-radius: 5rem;
+}
+
+.title-modal {
+  font-size: 24px;
+  color: var(--texto-preto);
+  letter-spacing: -0.05rem;
+  font-weight: 700;
+}
+
+.text-modal {
+  text-align: left;
+  color: var(--texto-cinza);
+  font-family: "Work Sans";
+  font-size: 18px;
+}
+
+.btn-roxo {
+  background-color: var(--roxo-principal);
+  color: white;
+  border-color: var(--roxo-principal);
+  border: none;
+}
+
+.btn-roxo,
+.btn-branco {
+  cursor: pointer;
+  border-radius: 5rem;
+  margin-left: 8px;
+  font-size: 16px;
+  padding: 10px 28px;
+  transition: 0.3s all linear;
+}
+
+.btn-roxo:hover {
+  background-color: transparent;
+  color: var(--roxo-principal);
+  border: 1.5px solid var(--roxo-principal);
+}
+
+.btn-branco {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1.5px solid;
+  color: var(--texto-cinza);
+}
+
+.btn-branco:hover {
+  border: 1.5px solid var(--texto-preto);
+  background-color: var(--texto-preto);
+  color: var(--branco);
+}
+
+.container-inicio {
+  width: 100%;
+  padding: 24px 0;
+}

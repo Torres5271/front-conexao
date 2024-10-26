@@ -1,0 +1,140 @@
+.section-adicionar-agenda {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section-adicionar-agenda .container-adicionar-agenda {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda {
+  width: 85%;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-adicionar-agenda .container-adicionar-agenda .group-button {
+  width: 100%;
+  display: flex;
+  column-gap: 8px;
+  justify-content: flex-end;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .valor-total {
+  width: 80%;
+  color: var(--texto-preto);
+  padding-left: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+  letter-spacing: -0.05rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .valor-total
+  span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .group-input {
+  display: flex;
+  height: 100%;
+  column-gap: 24px;
+}
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.servicos-grid li {
+  text-align: center;
+}
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .group-button
+  button {
+  padding: 0 24px;
+  height: 44px;
+  font-weight: 600;
+  letter-spacing: -0.03rem;
+  transition: 0.3 all linear;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .group-button
+  .roxo {
+  background-color: var(--roxo-principal);
+  color: var(--texto-branco);
+  border: none;
+}
+
+.section-adicionar-agenda
+  .container-adicionar-agenda
+  .content-adicionar-agenda
+  .informations-adicionar-agenda
+  .group-button
+  .sem-fundo {
+  background-color: transparent;
+  border: none;
+  color: var(--texto-cinza);
+}
+
+.group-button {
+  width: 100%;
+  display: flex;
+  column-gap: 8px;
+  justify-content: flex-end;
+}

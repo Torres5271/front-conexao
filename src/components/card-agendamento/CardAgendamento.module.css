@@ -1,0 +1,148 @@
+.card-agendamento {
+  width: 100%;
+  /* min-width: 320px; */
+  /* width: 28.5rem; */
+  padding: 1.5rem 0;
+  border-radius: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.card-agendamento .informations-agendamento {
+  width: 85%;
+  display: flex;
+  column-gap: 1.2rem;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .photo-funcionario
+  .img-funcionario {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.card-agendamento .informations-agendamento .text-agendamento {
+  width: 100%;
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .text-agendamento
+  .info-agendamento {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .text-agendamento
+  .info-agendamento
+  .text-funcionario {
+  max-width: 10vw;
+  font-size: 1.1rem;
+  color: var(--roxo-principal);
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .text-agendamento
+  .info-agendamento
+  .text-horario {
+  font-family: "Work Sans";
+  font-size: 0.9rem;
+  color: var(--roxo-principal);
+  background-color: rgba(149, 49, 224, 0.15);
+  padding: 0.7rem 1rem;
+  border-radius: 5rem;
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+.card-agendamento .informations-agendamento .text-agendamento .info-servico {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 0.7rem;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .text-agendamento
+  .info-servico
+  .text-cliente {
+  font-size: 1rem;
+  color: var(--texto-preto);
+  font-weight: 600;
+  letter-spacing: -0.05rem;
+}
+
+.card-agendamento
+  .informations-agendamento
+  .text-agendamento
+  .info-servico
+  .text-servico {
+  font-size: 1rem;
+  color: var(--texto-cinza);
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+}
+
+.card-agendamento .group-buttons {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 12px;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.25);
+  column-gap: 8px;
+}
+
+#branco {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        100deg,
+        rgba(241, 170, 54, 1) 0%,
+        rgba(149, 49, 224, 1) 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+  border-top-width: 7px;
+}
+
+#cinza {
+  background-color: var(--cinza);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#cinza .informations-agendamento .text-agendamento .info-agendamento .text-funcionario {
+  color: #F0E0FC;
+}
+
+#cinza .informations-agendamento .text-agendamento .text-horario {
+  color: white;
+}
+
+
+#cinza .informations-agendamento .text-agendamento .info-servico .text-servico {
+  color: var(--cinza-claro);
+}
+
+#cinza .group-buttons {
+  border-top: 1.5px solid rgba(255, 255, 255, 0.25);
+}

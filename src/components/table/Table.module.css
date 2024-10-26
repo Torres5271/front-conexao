@@ -1,0 +1,104 @@
+.container-table {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--branco);
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.container-table .table {
+  width: 100%;
+  background-color: var(--branco);
+  border-radius: 1rem;
+  border: none;
+}
+
+.container-table .table .header-table {
+  padding: 0;
+  margin: 0;
+  border-radius: 1rem;
+}
+
+.container-table .table .header-table th {
+  padding: 16px;
+  background-color: var(--preto);
+  color: var(--branco);
+  font-weight: 600;
+  line-height: 1.1rem;
+  letter-spacing: -0.05rem;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.container-table .table .header-table th:first-child {
+  border-top-left-radius: 1rem;
+}
+
+.container-table .table .header-table th:last-child {
+  border-top-right-radius: 1rem;
+}
+
+.container-table .table .body-table tr {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(159, 53, 240, 0.5);
+}
+
+.container-table .table .body-table tr:last-child {
+  border-bottom: 0px solid;
+}
+
+.container-table .table .body-table tr td{
+  vertical-align: middle;
+}
+
+.container-table .table .body-table tr .td-div {
+  margin: 0;
+  height: 10%;
+  /* width: 100%; */
+  padding: 24px;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.03rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-table .table .body-table tr .td-div-icon {
+  margin: 0;
+  height: 10%;
+  /* width: 100%; */
+  padding: 24px 12px;
+  font-weight: 600;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.03rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container-table .table .body-table tr:last-child td:first-child {
+  border-bottom-left-radius: 1rem;
+}
+
+.container-table .table .body-table tr:last-child td:last-child {
+  border-bottom-right-radius: 1rem;
+}
+
+.branco {
+  background: white;
+  color: var(--cinza);
+}
+
+.roxo {
+  background: white;
+  background-color: rgba(159, 53, 240, 0.15);
+  color: var(--roxo-principal);
+}
+
+.group-icon{
+  display: flex;
+}

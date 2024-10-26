@@ -1,0 +1,77 @@
+.section-perfil {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 20vw;
+}
+
+.section-perfil .container-perfil {
+    width: 100%;
+    padding: 24px 0;
+}
+
+.section-perfil .container-perfil .content-perfil {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    justify-content: flex-start;
+}
+
+.section-perfil .container-perfil .content-perfil .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-perfil .container-perfil .content-perfil .header .group-button {
+    display: flex;
+    column-gap: 8px;
+    justify-content: center;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .photo-perfil {
+    width: 100%;
+    row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .photo-perfil .img-perfil {
+    height: 184px;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .info-estatisticas {
+    margin-top: 16px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    row-gap: 24px;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .info-estatisticas .info-kpis {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .historico-agendamento {
+    margin-top: 24px;
+}
+
+
+.section-perfil .container-perfil .content-perfil .informations-perfil .historico-agendamento .tabela-historico {
+    margin-top: 24px;
+}

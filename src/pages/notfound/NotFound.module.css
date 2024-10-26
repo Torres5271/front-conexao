@@ -1,0 +1,60 @@
+.section-not-found{
+    width: 100%;
+}
+
+.section-not-found .fundo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 85%;
+}
+
+.section-not-found .container-not-found{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-not-found .container-not-found .content-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 48px;
+}
+
+.section-not-found .container-not-found .content-not-found .image-not-found{
+    width: fit-content;
+}
+
+.section-not-found .container-not-found .content-not-found .image-not-found .img-not-found{
+    height: auto;
+    max-width: 75vw;
+    max-height: 200px;
+}
+
+
+.section-not-found .container-not-found .content-not-found .text-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 32px;
+}
+
+.section-not-found .container-not-found .content-not-found .text-not-found .title-not-found{
+    font-size: 42px;
+    letter-spacing: -0.1rem;
+    font-weight: 800;
+    color: var(--texto-cinza-escuro);
+}
+
+
+.section-not-found .container-not-found .content-not-found .text-not-found .group-button{
+    display: flex;
+    column-gap: 8px;
+}
