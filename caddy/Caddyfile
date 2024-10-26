@@ -6,11 +6,10 @@
 #    }
 #}
 
-calencare-prod.zapto.org {
+calencare.sytes.net {
     # Serve o aplicativo React
-    root * /usr/share/caddy
+    root * /build
     encode gzip
-    file_server
     try_files {path} /index.html
 
     # Configura o load balancer para a API
